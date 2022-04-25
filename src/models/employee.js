@@ -17,7 +17,7 @@ role:{
 },    
 phone_no:{
     type:Number, 
-    required:true.valueOf,
+   required:true,
 },
 loation:{
     type:String,
