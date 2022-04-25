@@ -8,12 +8,16 @@ const EmployeeSchema = new mongoose.Schema(
 
 name:{
     type:String,
+    trim:true,
+    required:true,
 },
 role:{
     type:String,
+    required:true,
 },    
 phone_no:{
     type:Number, 
+    required:true.valueOf,
 },
 loation:{
     type:String,
