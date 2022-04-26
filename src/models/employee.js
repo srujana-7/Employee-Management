@@ -4,8 +4,6 @@ const mongoose = require("mongoose");
 const EmployeeSchema = new mongoose.Schema(
   {
  
-  
-
 name:{
     type:String,
     trim:true,
@@ -19,7 +17,7 @@ phone_no:{
     type:Number, 
    required:true,
 },
-loation:{
+location:{
     type:String,
 },
   },

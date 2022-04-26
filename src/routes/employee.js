@@ -77,7 +77,7 @@ router.delete("/employee/delete/:id",(req,res)=>{
     {
         return res.status(404).send()
     }
-    res.send(employee)
+    res.status(200).send("deleted")
     }). catch( (e)=>{
         res.status(500).send()
     })
